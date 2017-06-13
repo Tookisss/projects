@@ -65,7 +65,7 @@ class DataController extends Controller
     public function index_mtv() {
 
         $mtvs=Data::whereHas('tags', function($id) {
-            $id->where('tags_id', '=', '0');
+            $id->where('tags_id', '=', '1');
             })->get();
 
         return view('extends.mtvpage', compact('mtvs'));
@@ -73,7 +73,7 @@ class DataController extends Controller
 
     public function index_vevo() {
         $vevos=Data::whereHas('tags', function($id) {
-            $id->where('tags_id', '=', '1');
+            $id->where('tags_id', '=', '2');
         })->get();
 
         return view('extends.vevopage', compact('vevos'));
@@ -81,7 +81,7 @@ class DataController extends Controller
 
     public function index_grammy() {
         $grammys=Data::whereHas('tags', function($id) {
-            $id->where('tags_id', '=', '2');
+            $id->where('tags_id', '=', '3');
         })->get();
 
         return view('extends.grammypage', compact('grammys'));
