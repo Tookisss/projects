@@ -1,0 +1,27 @@
+.title {
+    font-size: 75px;
+}
+
+.intro-section {
+    width: 90%;
+}
+
+.random-gallery {
+    width: 95%;
+}
+
+.contact-address {
+    padding-left: 10%;
+}
+
+.contact-send {
+    padding-right: 0;
+}
+
+.upload-box {
+    width: 80%;
+}
+
+.register-box {
+    width: 80%;
+}

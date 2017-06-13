@@ -1,0 +1,148 @@
+.show {
+    font-size: 13px;
+    padding: 6px 60px;
+    text-align: center;
+    display: block;
+}
+
+.nav-main i {
+    display: block;
+    padding: 0 30px;
+    float: right;
+    background-color: black;
+    border: 0;
+    outline: 0;
+}
+
+.nav-links {
+    display: none;
+    margin: 60px 80px 0;
+}
+
+.nav-left {
+    display: block;
+    padding: 0 100%;
+}
+
+.nav-left a {
+    padding: 10px 300px;
+    border-top: 2px solid rgba(255, 255, 255, .2);
+}
+
+.nav-right {
+    display: block;
+    padding: 0 100%;
+}
+
+.nav-right a {
+    padding: 10px 300px;
+    border-top: 2px solid rgba(255, 255, 255, .2);
+}
+
+.intro-section {
+    font-size: 13px;
+}
+
+.intro-section h2 {
+    font-size: 16px;
+}
+
+.title {
+    font-size: 24px;
+    width: 90%;
+    text-align: center;
+}
+
+.intro-section {
+    margin: 80px auto 60px auto;
+}
+
+.third {
+    display: block;
+    width: 90%;
+    margin: 10% 4%;
+}
+
+.contact-data {
+    padding: 0 0 250px;
+}
+
+.contact-title {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.contact-title h2 {
+    font-size: 16px;
+}
+
+.contact-address {
+    display: block;
+    margin: auto;
+    width: 200px;
+    float: none;
+    padding: 0 0 15px;
+    font-size: 12px;
+}
+
+.contact-inputs {
+    width: 96%;
+    margin: 5px 0;
+}
+
+.contact-emails {
+    width: 96%;
+    margin: 5px 0;
+}
+
+.contact-text {
+    margin: 5px 0;
+}
+
+.image-size {
+    height: auto;
+}
+
+.content-field {
+    padding: 40px 0 40px;
+}
+
+.register-main {
+    padding: 10px 0;
+}
+
+.register-box {
+    width: 95%;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.register-header h2 {
+    font-size: 19px;
+}
+
+.label-name {
+    font-size: 14px;
+}
+
+.upload-main {
+    padding: 10px 0;
+}
+
+.upload-box {
+    width: 95%;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.upload-header h2 {
+    font-size: 19px;
+}
+
+.contact-input2 {
+    width: 100%;
+}
+
+.post_create {
+    width: 90%;
+}

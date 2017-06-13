@@ -1,0 +1,493 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* -------------------- NAV BAR ----------------- */
+.mySlides {
+    display:none;
+}
+
+.nav-main {
+    position: fixed;
+    top: 0;
+    right:0;
+    left: 0;
+    background-color: black;
+    color: white;
+    min-height: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.nav-main i {
+    display: none;
+}
+
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav-links a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #333;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+}
+
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+
+/* ------------------ INFO  SECTIONS ------------------- */
+
+.intro-section {
+    text-align: center;
+    color: #333333;
+    margin: 80px auto 80px auto;
+    width: 60%;
+}
+
+.intro-section h2 {
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px #a6a6a6;
+}
+
+.intro-after-header {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: #a6a6a6;
+}
+
+.intro-align {
+    text-align: justify;
+}
+
+.title {
+    position: absolute;
+    margin-top: 15%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    color: rgba(255, 255, 255, .8);
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.fonts-row {
+    margin: 5px 20px 10px 20px;
+    padding-bottom: 25px;
+}
+
+.fonts-row-edit {
+  float: left;
+  box-sizing: border-box;
+  display: block;
+}
+
+.fonts-row-trash {
+  float: right;
+  box-sizing: border-box;
+  display: block;
+}
+
+.neutral-button {
+    padding: 0;
+    border: none;
+    background-color: rgba(0, 0, 0, .0);
+}
+
+.trash {
+    color: #990000;
+}
+
+/* ---------------------- RANDOM GALLERY ------------------- */
+.content-field {
+    background-color: #e6e6e6;
+    padding: 150px 0 75px;
+    overflow: visible;
+}
+
+.random-gallery {
+    padding: 0;
+    margin: 0 auto 80px;
+    width: 68%;
+}
+
+.third {
+    display: inline-block;
+    width: 29%;
+    height: 23%;
+    margin: 2%;
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+
+.third p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.third img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.third li:first-child {
+  padding-top: 13px;
+}
+
+.third li {
+    font-size: 13px;
+}
+
+.fa-pencil-square-o {
+    color: black;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+}
+
+.image-size {
+    height: 150px;
+    overflow: hidden;
+}
+
+
+/* ----------------------- CONTACT MAIN --------------------- */
+
+.contact-main {
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: 450px;
+}
+
+.contact-title {
+    width: auto;
+    text-align: center;
+    margin: 80px auto 40px;
+}
+
+.contact-title h2 {
+    text-shadow: 1px 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+.contact-data {
+    padding: 32px 0;
+}
+
+.contact-address {
+    width:48%;
+    font-size:16px;
+    margin-bottom: 16px;
+    padding-left: 25%;
+    display: block;
+    float: left;
+}
+
+.contact-address p {
+    margin: 0 5px;
+    display: inline;
+    float: left;
+}
+
+.contact-address i {
+    margin: 0 5px;
+    display: inline;
+    float: left;
+}
+
+.contact-send {
+    width:48%;
+    display: block;
+    float: right;
+    padding-right: 10%;
+    line-height: 1.5;
+}
+
+.contact-top {
+    display: block;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+.contact-name-email {
+    width: 48%;
+    padding: 0 10px;
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    color: #333333;
+}
+
+.contact-text {
+    width: 96%;
+    margin: 15px 0;
+    padding: 0 10px;
+    float: left;
+    box-sizing: border-box;
+    display: block;
+    color: #333333;
+}
+
+.contact-input {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    overflow: visible;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact-input2 {
+    padding: 10px;
+    display: block;
+    width: 30%;
+    overflow: visible;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact-button {
+    color: #333333;
+    border: 0.5px solid #333333;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px #a6a6a6;
+    box-shadow: 1px 2px 4px rgba(255, 255, 255, .2);
+    float: right;
+    margin-right: 5%;
+    padding: 10px 15px;
+}
+
+/* ------------------------ Footer --------------------- */
+
+.footer-main {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-main {
+    font-size: 16px;
+    color: #333333;
+    text-shadow: 2px 2px 4px #a6a6a6;
+}
+
+/* -------------------- ERRORS --------------- */
+.error-main {
+    width: 50%;
+    border-radius: 10px;
+    background-color: pink;
+    color: red;
+    text-align: center;
+    margin: 15px auto;
+    font-weight: bold;
+    box-shadow: 1px 4px 5px rgba(255, 102, 102, .4);
+}
+
+.error-ul {
+  list-style: none;
+}
+
+/* ------------------------------ Registration ---------------------- */
+
+.register-main {
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 100px 0;
+    display: flex;
+}
+
+.register-box {
+    background-color: rgba(0, 0, 0, .1);
+    width: 40%;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.register-header {
+    text-align: center;
+    margin-bottom: 35px;
+    text-shadow: 2px 2px 4px #a6a6a6;
+}
+
+.register-header h2 {
+    font-weight: 500;
+}
+
+.register-fields {
+    margin: 0 5%;
+}
+
+.register-field {
+    margin-bottom: 15px;
+}
+
+.register-button {
+    color: #333333;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px #a6a6a6;
+    box-shadow: 1px 2px 4px rgba(255, 255, 255, .2);
+    float: right;
+    padding: 10px 15px;
+}
+
+.label-name {
+    font-size: 17px;
+}
+
+/* ------------------------------ UPLOAD ---------------------- */
+
+.upload-main {
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 100px 0;
+    display: flex;
+}
+
+.upload-box {
+    background-color: rgba(0, 0, 0, .1);
+    width: 40%;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.upload-header {
+    text-align: center;
+    margin-bottom: 35px;
+    text-shadow: 2px 2px 4px #a6a6a6;
+}
+
+.upload-field {
+    margin-bottom: 15px;
+}
+
+.upload-radio {
+    margin-right: 15px;
+    display: inline-block;
+    float: left;
+}
+
+.upload-button {
+    color: #333333;
+    background-color: #e7e7e7;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px #a6a6a6;
+    box-shadow: 1px 2px 4px rgba(255, 255, 255, .2);
+    float: right;
+    margin-right: 15%;
+    padding: 5px 8px;
+}
+
+/* ---------------- POSTS -------------- */
+.post_main{
+    background-color: #e6e6e6;
+    padding: 100px 0;
+}
+
+.post_info {
+    margin: 0 auto 50px;
+    width: 90%;
+}
+
+.post_info_left {
+    position: relative;
+    float: left;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.post_info_right {
+    position: relative;
+    float: left;
+    margin: 10% 50px 30px;
+}
+
+.post_comment_main {
+    margin: 0 auto 50px;
+    width: 70%;
+}
+
+.post_comment {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.post_create {
+    margin: 0 auto 50px;
+    width: 60%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px 15px 60px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+.post_title {
+    display: grid;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.post_title input {
+    width: 50%;
+    line-height: 2.5;
+}
+
+.post_message {
+    display: grid;
+    padding-left: 10px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.post_message input {
+    line-height: 2.5;
+}
+
+.comment-button {
+    color: #333333;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px #a6a6a6;
+    box-shadow: 1px 2px 4px rgba(255, 255, 255, .2);
+    padding: 10px 15px;
+    float: right;
+}

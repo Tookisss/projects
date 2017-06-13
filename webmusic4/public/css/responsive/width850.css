@@ -1,0 +1,15 @@
+.title {
+    font-size: 70px;
+}
+
+.random-gallery {
+    width: 100%;
+}
+
+.third {
+    margin: 1%;
+}
+
+.third:first-child {
+    margin-left: 4%;
+}
