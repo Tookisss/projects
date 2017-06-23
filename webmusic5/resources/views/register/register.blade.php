@@ -27,7 +27,7 @@
               </div>
 
               <div class="register-field">
-                  <label class="label-name" for="password_confirmation">Password-confimation:</label><br />
+                  <label class="label-name" for="password_confirmation">Password-confirmation:</label><br />
                   <input class="contact-input" type="password" name="password_confirmation" id="password_confirmation" size="45" required>
               </div>
 
