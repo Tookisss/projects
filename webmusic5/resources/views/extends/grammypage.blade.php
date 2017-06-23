@@ -3,7 +3,7 @@
 @section('content')
 <div class="content-field">
     <div class="random-gallery">
-      <h1 style="text-align: center;">Click on the photo and comment!</h1>
+      <h1 style="text-align: center;">Login or register and click on the photo for comment!</h1>
         @foreach($grammys as $datas)
         <div class="third">
             <p>{{ $datas->title }}</p>
